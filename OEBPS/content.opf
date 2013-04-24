@@ -2,11 +2,11 @@
 <package xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.idpf.org/2007/opf" version="2.0" unique-identifier="bookid">
   <metadata>
     <meta content="cover-image" name="cover"/>
-    <dc:identifier id="bookid">urn:uuid:00000000-0000-0000-0000-000000000000</dc:identifier>
-    <dc:title>Example Title</dc:title>
-    <dc:creator>Example Author</dc:creator>
-    <dc:date>0000</dc:date>
-    <dc:publisher>Example Publisher</dc:publisher>
+    <dc:identifier id="bookid">urn:uuid:92933203-a895-45eb-a206-5256f3856f98</dc:identifier>
+    <dc:title>This New Ocean: A History of Project Mercury</dc:title>
+    <dc:creator>Loyd S. Swenson, Jr., James M. Grimwood, Charles C. Alexander</dc:creator>
+    <dc:date>1998</dc:date>
+    <dc:publisher>NASA History Office</dc:publisher>
     <dc:language>en</dc:language>
   </metadata>
   <manifest>
