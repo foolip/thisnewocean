@@ -350,22 +350,51 @@ removeAttributes({'body': ['bgcolor'],
 
 removeComments()
 
+# remove the footer (empty elements and images at end of body)
+for n in reversed(list(iterNodes(body))):
+    if isEmpty(n):
+        if n.nodeType == n.ELEMENT_NODE and n.tagName == 'img':
+            if n.getAttribute('alt') not in \
+                    ['Previous', 'Next', 'Index']:
+                break
+        remove(n)
+    else:
+        break
+
 removeEmpty(['b', 'i', 'li', 'p', 'sub', 'sup'])
+
+mapTags({'em': 'i', 'cite': 'i', 'strong': 'b'})
+
+paragraphize(body)
+for bq in iterTags(doc, 'blockquote'):
+    paragraphize(bq)
+
+relativize('/SP-4201/')
+
+# add [] around note links (and remember them for quotify)
+noteLinks = set()
+for a in iterTags(doc, 'a'):
+    href = a.getAttribute('href')
+    if href.startswith('#'):
+        assert href.startswith('#source')
+        text = textContent(a)
+        remove(a.firstChild)
+        assert a.firstChild == None
+        a.appendChild(doc.createTextNode('[%s]' % text))
+        noteLinks.add(a)
 
 for elm in iterTags(body):
     if elm.tagName in ['dd', 'dt', 'h1', 'h2', 'h3', 'li', 'p', 'td', 'th']:
-        quotify(elm)
+        quotify(elm, lambda n: n in noteLinks)
 assert re.search(r'[`\'"]', textContent(body)) == None
 
 dashify(body)
 
-ellipsify(body)
+#ellipsify(body)
 
 externalizeWhitespace(['dd', 'dt', 'li', 'p'])
 
 collapseNewlines()
-
-mapTags({'em': 'i', 'cite': 'i', 'strong': 'b'})
 
 addTalismans()
 
