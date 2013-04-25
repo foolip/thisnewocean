@@ -383,6 +383,13 @@ for a in iterTags(doc, 'a'):
         a.appendChild(doc.createTextNode('[%s]' % text))
         noteLinks.add(a)
 
+# move <a name="foo"> anchors to parent <? id="foo">
+for a in iterTags(doc, 'a'):
+    if a.hasAttribute('name') and not a.parentNode.hasAttribute('id'):
+        assert a.parentNode.tagName == 'p'
+        a.parentNode.setAttribute('id', a.getAttribute('name'))
+        replaceWithChildren(a)
+
 for elm in iterTags(body):
     if elm.tagName in ['dd', 'dt', 'h1', 'h2', 'h3', 'li', 'p', 'td', 'th']:
         quotify(elm, lambda n: n in noteLinks)
