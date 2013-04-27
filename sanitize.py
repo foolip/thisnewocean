@@ -416,6 +416,24 @@ for bq in iterTags(doc, 'blockquote'):
 
 relativize('/SP-4201/')
 
+# remove page numbers in []
+for n in iterText(body):
+    def repl(m):
+        s = m.group(1)
+        if s.isdigit():
+            if int(s) <= 681:
+                return ''
+            else:
+                assert int(s) >= 1900
+        elif s in ['v', 'vi', 'xi', 'xii', 'xiii', 'xiv', 'xv']:
+            return ''
+        else:
+            assert s in ['flight', 'sic', 'Washington', 'we', 'body',
+                         'Simpkinson', 'should', 'LJ-5A', 'Silverstein',
+                         'spacecraft', 'Liquid', 'MA-9', 'MR-1']
+        return m.group(0)
+    n.data = re.sub(r'\[(\S*)\]', repl, n.data)
+
 # add [] around note links (and remember them for quotify)
 noteLinks = set()
 for a in iterTags(doc, 'a'):
