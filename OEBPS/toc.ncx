@@ -72,6 +72,12 @@
 	</navLabel>
 	<content src="ch5.htm"/>
       </navPoint>
+      <navPoint id="ch6">
+	<navLabel>
+	  <text>VI. From Design into Development (January–June 1959)</text>
+	</navLabel>
+	<content src="ch6.htm"/>
+      </navPoint>
     </navPoint>
   </navMap>
 </ncx>
