@@ -19,5 +19,59 @@
       </navLabel>
       <content src="cover.html"/>
     </navPoint>
+    <navPoint id="forewd">
+      <navLabel>
+	<text>Foreword</text>
+      </navLabel>
+      <content src="forewd.htm"/>
+    </navPoint>
+    <navPoint id="prefac">
+      <navLabel>
+	<text>Preface</text>
+      </navLabel>
+      <content src="prefac.htm"/>
+    </navPoint>
+    <navPoint id="part1">
+      <navLabel>
+	<text>1. Research (Charles C. Alexander)</text>
+      </navLabel>
+      <content src="part1.htm"/>
+      <navPoint id="ch1">
+	<navLabel>
+	  <text>I. The Lure, the Lock, the Key (To 1958)</text>
+	</navLabel>
+	<content src="ch1.htm"/>
+      </navPoint>
+      <navPoint id="ch2">
+	<navLabel>
+	  <text>II. Exploring the Human Factor (1948–1958)</text>
+	</navLabel>
+	<content src="ch2.htm"/>
+      </navPoint>
+      <navPoint id="ch3">
+	<navLabel>
+	  <text>III. Aeronautics to Astronautics: NACA Research (1952–1957)</text>
+	</navLabel>
+	<content src="ch3.htm"/>
+      </navPoint>
+      <navPoint id="ch4">
+	<navLabel>
+	  <text>IV. From NACA to NASA (November 1957–September 1958)</text>
+	</navLabel>
+	<content src="ch4.htm"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="part2">
+      <navLabel>
+	<text>2. Development (Loyd S. Swenson, Jr.)</text>
+      </navLabel>
+      <content src="part2.htm"/>
+      <navPoint id="ch5">
+	<navLabel>
+	  <text>V. Specifications for a Manned Satellite (October–December 1958)</text>
+	</navLabel>
+	<content src="ch5.htm"/>
+      </navPoint>
+    </navPoint>
   </navMap>
 </ncx>
