@@ -78,6 +78,12 @@
 	</navLabel>
 	<content src="ch6.htm"/>
       </navPoint>
+      <navPoint id="ch7">
+	<navLabel>
+	  <text>VII. Man-Rating the Machines (July–December 1959)</text>
+	</navLabel>
+	<content src="ch7.htm"/>
+      </navPoint>
     </navPoint>
   </navMap>
 </ncx>
