@@ -84,6 +84,12 @@
 	</navLabel>
 	<content src="ch7.htm"/>
       </navPoint>
+      <navPoint id="ch8">
+	<navLabel>
+	  <text>VIII. Machine-Rating the Men (January–June 1960)</text>
+	</navLabel>
+	<content src="ch8.htm"/>
+      </navPoint>
     </navPoint>
   </navMap>
 </ncx>
