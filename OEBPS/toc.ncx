@@ -96,6 +96,12 @@
 	</navLabel>
 	<content src="ch9.htm"/>
       </navPoint>
+      <navPoint id="ch10">
+	<navLabel>
+	  <text>X. Tests Versus Time in the Race for Space (January–April 1961)</text>
+	</navLabel>
+	<content src="ch10.htm"/>
+      </navPoint>
     </navPoint>
   </navMap>
 </ncx>

@@ -28,15 +28,7 @@
     <item href="ch7.htm" id="ch7" media-type="application/xhtml+xml"/>
     <item href="ch8.htm" id="ch8" media-type="application/xhtml+xml"/>
     <item href="ch9.htm" id="ch9" media-type="application/xhtml+xml"/>
-    <item href="ch10-1.htm" id="ch10-1" media-type="application/xhtml+xml"/>
-    <item href="ch10-2.htm" id="ch10-2" media-type="application/xhtml+xml"/>
-    <item href="ch10-3.htm" id="ch10-3" media-type="application/xhtml+xml"/>
-    <item href="ch10-4.htm" id="ch10-4" media-type="application/xhtml+xml"/>
-    <item href="ch10-5.htm" id="ch10-5" media-type="application/xhtml+xml"/>
-    <item href="ch10-6.htm" id="ch10-6" media-type="application/xhtml+xml"/>
-    <item href="ch10-7.htm" id="ch10-7" media-type="application/xhtml+xml"/>
-    <item href="ch10-8.htm" id="ch10-8" media-type="application/xhtml+xml"/>
-    <item href="ch10-9.htm" id="ch10-9" media-type="application/xhtml+xml"/>
+    <item href="ch10.htm" id="ch10" media-type="application/xhtml+xml"/>
     <item href="ch11-1.htm" id="ch11-1" media-type="application/xhtml+xml"/>
     <item href="ch11-2.htm" id="ch11-2" media-type="application/xhtml+xml"/>
     <item href="ch11-3.htm" id="ch11-3" media-type="application/xhtml+xml"/>
@@ -121,15 +113,7 @@
     <itemref idref="ch7"/>
     <itemref idref="ch8"/>
     <itemref idref="ch9"/>
-    <itemref idref="ch10-1"/>
-    <itemref idref="ch10-2"/>
-    <itemref idref="ch10-3"/>
-    <itemref idref="ch10-4"/>
-    <itemref idref="ch10-5"/>
-    <itemref idref="ch10-6"/>
-    <itemref idref="ch10-7"/>
-    <itemref idref="ch10-8"/>
-    <itemref idref="ch10-9"/>
+    <itemref idref="ch10"/>
     <itemref idref="ch11-1"/>
     <itemref idref="ch11-2"/>
     <itemref idref="ch11-3"/>
