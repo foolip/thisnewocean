@@ -90,6 +90,12 @@
 	</navLabel>
 	<content src="ch8.htm"/>
       </navPoint>
+      <navPoint id="ch9">
+	<navLabel>
+	  <text>IX. From Development into Qualification: Flight Tests (July–December 1960)</text>
+	</navLabel>
+	<content src="ch9.htm"/>
+      </navPoint>
     </navPoint>
   </navMap>
 </ncx>
