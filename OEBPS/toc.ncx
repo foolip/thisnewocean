@@ -114,6 +114,12 @@
 	</navLabel>
 	<content src="ch11.htm"/>
       </navPoint>
+      <navPoint id="ch12">
+	<navLabel>
+	  <text>XII. Final Rehearsals</text>
+	</navLabel>
+	<content src="ch12.htm"/>
+      </navPoint>
     </navPoint>
   </navMap>
 </ncx>
