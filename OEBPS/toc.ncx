@@ -103,5 +103,17 @@
 	<content src="ch10.htm"/>
       </navPoint>
     </navPoint>
+    <navPoint id="part3">
+      <navLabel>
+	<text>3. Operations (James M. Grimwood)</text>
+      </navLabel>
+      <content src="part3.htm"/>
+      <navPoint id="ch11">
+	<navLabel>
+	  <text>XI. Suborbital Flights into Space</text>
+	</navLabel>
+	<content src="ch11.htm"/>
+      </navPoint>
+    </navPoint>
   </navMap>
 </ncx>
