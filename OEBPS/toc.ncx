@@ -33,7 +33,7 @@
     </navPoint>
     <navPoint id="part1">
       <navLabel>
-	<text>1. Research (Charles C. Alexander)</text>
+	<text>Part One—Research (Charles C. Alexander)</text>
       </navLabel>
       <content src="part1.htm"/>
       <navPoint id="ch1">
@@ -63,7 +63,7 @@
     </navPoint>
     <navPoint id="part2">
       <navLabel>
-	<text>2. Development (Loyd S. Swenson, Jr.)</text>
+	<text>Part Two—Development (Loyd S. Swenson, Jr.)</text>
       </navLabel>
       <content src="part2.htm"/>
       <navPoint id="ch5">
@@ -105,7 +105,7 @@
     </navPoint>
     <navPoint id="part3">
       <navLabel>
-	<text>3. Operations (James M. Grimwood)</text>
+	<text>Part Three—Operations (James M. Grimwood)</text>
       </navLabel>
       <content src="part3.htm"/>
       <navPoint id="ch11">
