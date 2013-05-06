@@ -133,5 +133,11 @@
 	<content src="ch14.htm"/>
       </navPoint>
     </navPoint>
+    <navPoint id="epilog">
+      <navLabel>
+	<text>Epilogue</text>
+      </navLabel>
+      <content src="epilog.htm"/>
+    </navPoint>
   </navMap>
 </ncx>
