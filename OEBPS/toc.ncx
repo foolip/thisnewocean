@@ -126,6 +126,12 @@
 	</navLabel>
 	<content src="ch13.htm"/>
       </navPoint>
+      <navPoint id="ch14">
+	<navLabel>
+	  <text>XIV. Climax of Project Mercury</text>
+	</navLabel>
+	<content src="ch14.htm"/>
+      </navPoint>
     </navPoint>
   </navMap>
 </ncx>
