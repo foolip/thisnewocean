@@ -120,6 +120,12 @@
 	</navLabel>
 	<content src="ch12.htm"/>
       </navPoint>
+      <navPoint id="ch13">
+	<navLabel>
+	  <text>XIII. Mercury Mission Accomplished</text>
+	</navLabel>
+	<content src="ch13.htm"/>
+      </navPoint>
     </navPoint>
   </navMap>
 </ncx>
