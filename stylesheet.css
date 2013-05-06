@@ -48,8 +48,12 @@ hr {
     max-width: 100%;
 }
 .figure .caption {
+    font-style: italic;
     font-size: 0.95em;
     margin: 0.1em 2em;
     text-align: center;
     text-indent: 0;
+}
+.figure .caption i {
+    font-style: normal;
 }
