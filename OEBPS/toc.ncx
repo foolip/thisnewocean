@@ -139,5 +139,11 @@
       </navLabel>
       <content src="epilog.htm"/>
     </navPoint>
+    <navPoint id="sources">
+      <navLabel>
+	<text>Note on Sources and Selected Bibliography</text>
+      </navLabel>
+      <content src="sources.htm"/>
+    </navPoint>
   </navMap>
 </ncx>

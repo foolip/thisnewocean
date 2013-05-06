@@ -36,16 +36,7 @@
     <item href="ch14.htm" id="ch14" media-type="application/xhtml+xml"/>
     <item href="epilog.htm" id="epilog" media-type="application/xhtml+xml"/>
     <item href="notes.htm" id="notes" media-type="application/xhtml+xml"/>
-    <item href="srce1.htm" id="srce1" media-type="application/xhtml+xml"/>
-    <item href="srce2.htm" id="srce2" media-type="application/xhtml+xml"/>
-    <item href="bib1.htm" id="bib1" media-type="application/xhtml+xml"/>
-    <item href="bib2.htm" id="bib2" media-type="application/xhtml+xml"/>
-    <item href="bib3.htm" id="bib3" media-type="application/xhtml+xml"/>
-    <item href="bib4.htm" id="bib4" media-type="application/xhtml+xml"/>
-    <item href="bib5.htm" id="bib5" media-type="application/xhtml+xml"/>
-    <item href="bib6.htm" id="bib6" media-type="application/xhtml+xml"/>
-    <item href="bib7.htm" id="bib7" media-type="application/xhtml+xml"/>
-    <item href="bib8.htm" id="bib8" media-type="application/xhtml+xml"/>
+    <item href="sources.htm" id="sources" media-type="application/xhtml+xml"/>
     <item href="appa.htm" id="appa" media-type="application/xhtml+xml"/>
     <item href="appb.htm" id="appb" media-type="application/xhtml+xml"/>
     <item href="appc.htm" id="appc" media-type="application/xhtml+xml"/>
@@ -93,16 +84,7 @@
     <itemref idref="ch14"/>
     <itemref idref="epilog"/>
     <itemref idref="notes"/>
-    <itemref idref="srce1"/>
-    <itemref idref="srce2"/>
-    <itemref idref="bib1"/>
-    <itemref idref="bib2"/>
-    <itemref idref="bib3"/>
-    <itemref idref="bib4"/>
-    <itemref idref="bib5"/>
-    <itemref idref="bib6"/>
-    <itemref idref="bib7"/>
-    <itemref idref="bib8"/>
+    <itemref idref="sources"/>
     <itemref idref="appa"/>
     <itemref idref="appb"/>
     <itemref idref="appc"/>
