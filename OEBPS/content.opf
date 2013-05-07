@@ -15,7 +15,7 @@
     <item href="cover.jpg" id="cover-image" media-type="image/jpeg"/>
     <item href="cover.html" id="cover" media-type="application/xhtml+xml"/>
     <item href="forewd.htm" id="forewd" media-type="application/xhtml+xml"/>
-    <item href="toc.htm" id="toc" media-type="application/xhtml+xml"/>
+    <item href="contents.htm" id="contents" media-type="application/xhtml+xml"/>
     <item href="prefac.htm" id="prefac" media-type="application/xhtml+xml"/>
     <item href="part1.htm" id="part1" media-type="application/xhtml+xml"/>
     <item href="ch1.htm" id="ch1" media-type="application/xhtml+xml"/>
@@ -63,7 +63,7 @@
   <spine toc="ncx">
     <itemref idref="cover" linear="no"/>
     <itemref idref="forewd"/>
-    <itemref idref="toc"/>
+    <itemref idref="contents"/>
     <itemref idref="prefac"/>
     <itemref idref="part1"/>
     <itemref idref="ch1"/>

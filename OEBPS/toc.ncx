@@ -25,6 +25,12 @@
       </navLabel>
       <content src="forewd.htm"/>
     </navPoint>
+    <navPoint id="contents">
+      <navLabel>
+	<text>Contents</text>
+      </navLabel>
+      <content src="contents.htm"/>
+    </navPoint>
     <navPoint id="prefac">
       <navLabel>
 	<text>Preface</text>
