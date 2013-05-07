@@ -25,6 +25,9 @@ OEBPS/%.gif: %.gif
 OEBPS/%.jpg: %.jpg
 	cp $< $@
 
+OEBPS/%.png: %.png
+	cp $< $@
+
 OEBPS/stylesheet.css: stylesheet.css
 	cp $< $@
 

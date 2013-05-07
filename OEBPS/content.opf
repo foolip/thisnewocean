@@ -44,7 +44,8 @@
     <item href="appe.htm" id="appe" media-type="application/xhtml+xml"/>
     <item href="appf.htm" id="appf" media-type="application/xhtml+xml"/>
     <item href="appg.htm" id="appg" media-type="application/xhtml+xml"/>
-    <item href="t004b.gif" id="t004b" media-type="image/gif"/>
+    <item href="t004a.jpg" id="t004a" media-type="image/jpeg"/>
+    <item href="t004b.png" id="t004b" media-type="image/png"/>
     <item href="t035.gif" id="t035" media-type="image/gif"/>
     <item href="t186.gif" id="t186" media-type="image/gif"/>
     <item href="t189.gif" id="t189" media-type="image/gif"/>
