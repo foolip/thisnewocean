@@ -17,7 +17,7 @@
       <navLabel>
         <text>Front Cover</text>
       </navLabel>
-      <content src="cover.html"/>
+      <content src="cover.htm"/>
     </navPoint>
     <navPoint id="forewd">
       <navLabel>

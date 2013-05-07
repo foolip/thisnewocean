@@ -13,7 +13,7 @@
     <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml"/>
     <item href="stylesheet.css" id="css" media-type="text/css"/>
     <item href="cover.jpg" id="cover-image" media-type="image/jpeg"/>
-    <item href="cover.html" id="cover" media-type="application/xhtml+xml"/>
+    <item href="cover.htm" id="cover" media-type="application/xhtml+xml"/>
     <item href="forewd.htm" id="forewd" media-type="application/xhtml+xml"/>
     <item href="contents.htm" id="contents" media-type="application/xhtml+xml"/>
     <item href="prefac.htm" id="prefac" media-type="application/xhtml+xml"/>
@@ -94,6 +94,6 @@
     <itemref idref="appg"/>
   </spine>
   <guide>
-    <reference href="cover.html" title="Cover" type="cover"/>
+    <reference href="cover.htm" title="Cover" type="cover"/>
   </guide>
 </package>
