@@ -47,6 +47,12 @@ hr {
     height: auto;
     max-width: 100%;
 }
+.figure .title {
+    font-weight: bold;
+    margin: 0.1em;
+    text-align: center;
+    text-indent: 0;
+}
 .figure .caption {
     font-style: italic;
     font-size: 0.95em;
