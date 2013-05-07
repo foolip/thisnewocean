@@ -145,5 +145,47 @@
       </navLabel>
       <content src="sources.htm"/>
     </navPoint>
+    <navPoint id="appa">
+      <navLabel>
+	<text>Appendix A—Functional Organization of Project Mercury</text>
+      </navLabel>
+      <content src="appa.htm"/>
+    </navPoint>
+    <navPoint id="appb">
+      <navLabel>
+	<text>Appendix B—Workflow Organization of Project Mercury</text>
+      </navLabel>
+      <content src="appb.htm"/>
+    </navPoint>
+    <navPoint id="appc">
+      <navLabel>
+	<text>Appendix C—Organization Charts</text>
+      </navLabel>
+      <content src="appc.htm"/>
+    </navPoint>
+    <navPoint id="appd">
+      <navLabel>
+	<text>Appendix D—Flight Data Summary</text>
+      </navLabel>
+      <content src="appd.htm"/>
+    </navPoint>
+    <navPoint id="appe">
+      <navLabel>
+	<text>Appendix E—Personnel Growth</text>
+      </navLabel>
+      <content src="appe.htm"/>
+    </navPoint>
+    <navPoint id="appf">
+      <navLabel>
+	<text>Appendix F—Project Mercury Cost Summaries</text>
+      </navLabel>
+      <content src="appf.htm"/>
+    </navPoint>
+    <navPoint id="appg">
+      <navLabel>
+	<text>Appendix G—Project Mercury Tracking Net</text>
+      </navLabel>
+      <content src="appg.htm"/>
+    </navPoint>
   </navMap>
 </ncx>
