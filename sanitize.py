@@ -128,9 +128,6 @@ def dashify(elm):
     # fail if the input was too complicated for us
     text = textContent(elm)
     assert re.search(r'\s-\s', text, flags=re.M) == None
-    if srcpath != 'sources.htm':
-        assert re.search(r'\s'+mdash, text, flags=re.M) == None
-        assert re.search(mdash+r'\s', text, flags=re.M) == None
 
 # replace '. . .' with ellipsis
 def ellipsify(elm):

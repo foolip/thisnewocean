@@ -61,3 +61,6 @@ hr {
 .figure .caption i {
     font-style: normal;
 }
+.noindent {
+    text-indent: 0;
+}
