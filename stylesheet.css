@@ -64,3 +64,8 @@ hr {
 .noindent {
     text-indent: 0;
 }
+.stars {
+    text-align: center;
+    text-indent: 0;
+    word-spacing: 3em
+}
