@@ -193,5 +193,17 @@
       </navLabel>
       <content src="appg.htm"/>
     </navPoint>
+    <navPoint id="back">
+      <navLabel>
+	<text>Back Cover</text>
+      </navLabel>
+      <content src="back.htm"/>
+    </navPoint>
+    <navPoint id="about">
+      <navLabel>
+	<text>About This eBook</text>
+      </navLabel>
+      <content src="about.htm"/>
+    </navPoint>
   </navMap>
 </ncx>
