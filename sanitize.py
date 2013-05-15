@@ -458,7 +458,8 @@ paragraphize(body)
 for bq in iterTags(doc, 'blockquote'):
     paragraphize(bq)
 
-relativize('/SP-4201/')
+if 'about.htm' not in dstpath:
+    relativize('/SP-4201/')
 
 # remove page numbers in []
 for n in iterText(body):

@@ -13,6 +13,13 @@ $(EPUB_FILE): $(GIT_FILES) $(OEBPS_FILES)
 	zip -X $@ mimetype
 	zip -rg $@ META-INF OEBPS -x \*~ \*.gitignore
 
+OEBPS/about.htm: about.htm
+	$(eval REVISION := $(shell git rev-parse HEAD))
+	$(eval TMP := $(shell mktemp -t $<))
+	sed "s/REVISION/$(REVISION)/g" $< > $(TMP)
+	./sanitize.py $(TMP) $@
+	rm $(TMP)
+
 OEBPS/%.htm: %.htm
 	./sanitize.py $< $@
 
