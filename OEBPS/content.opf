@@ -44,6 +44,8 @@
     <item href="appe.htm" id="appe" media-type="application/xhtml+xml"/>
     <item href="appf.htm" id="appf" media-type="application/xhtml+xml"/>
     <item href="appg.htm" id="appg" media-type="application/xhtml+xml"/>
+    <item href="back.jpg" id="back-image" media-type="image/jpeg"/>
+    <item href="back.htm" id="back" media-type="application/xhtml+xml"/>
     <item href="t004a.jpg" id="t004a" media-type="image/jpeg"/>
     <item href="t004b.png" id="t004b" media-type="image/png"/>
     <item href="t007a.jpg" id="t007a" media-type="image/jpeg"/>
@@ -232,6 +234,7 @@
     <itemref idref="appe"/>
     <itemref idref="appf"/>
     <itemref idref="appg"/>
+    <itemref idref="back"/>
   </spine>
   <guide>
     <reference href="cover.htm" title="Cover" type="cover"/>
