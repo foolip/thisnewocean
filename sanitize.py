@@ -497,6 +497,11 @@ for a in iterTags(doc, 'a'):
         a.parentNode.setAttribute('id', a.getAttribute('name'))
         replaceWithChildren(a)
 
+# convert subscript 2 to Unicode
+for sub in iterTags(doc, 'sub'):
+    assert textContent(sub) == '2'
+    replace(sub, doc.createTextNode(u'\u2082'))
+
 for elm in iterTags(body):
     if elm.tagName in ['dd', 'dt', 'h1', 'h2', 'h3', 'li', 'p', 'td', 'th']:
         quotify(elm, lambda n: n in noteLinks)
