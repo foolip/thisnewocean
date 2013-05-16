@@ -202,6 +202,7 @@
     <item href="t636.gif" id="t636" media-type="image/gif"/>
     <item href="t636a.gif" id="t636a" media-type="image/gif"/>
     <item href="t636b.gif" id="t636b" media-type="image/gif"/>
+    <item href="t647.jpg" id="t647" media-type="image/jpeg"/>
   </manifest>
   <spine toc="ncx">
     <itemref idref="cover" linear="no"/>
