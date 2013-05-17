@@ -483,7 +483,7 @@ for n in iterText(body):
 noteLinks = set()
 for a in iterTags(doc, 'a'):
     href = a.getAttribute('href')
-    if '#' in href:
+    if '#' in href and '#fig' not in href:
         assert href.startswith('#source') or href.startswith('notes.htm#n')
         text = textContent(a)
         remove(a.firstChild)
