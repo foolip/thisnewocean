@@ -27,7 +27,7 @@ OEBPS/%.html: %.html
 	./sanitize.py $< $@
 
 OEBPS/%.gif: %.gif
-	./resize.sh $< $@ 1000 1000
+	cp $< $@
 
 OEBPS/%.jpg: %.jpg
 	./resize.sh $< $@ 1000 1000
