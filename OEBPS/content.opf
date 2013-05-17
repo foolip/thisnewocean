@@ -15,6 +15,8 @@
     <item href="cover.jpg" id="cover-image" media-type="image/jpeg"/>
     <item href="cover.htm" id="cover" media-type="application/xhtml+xml"/>
     <item href="jfk.htm" id="jfk" media-type="application/xhtml+xml"/>
+    <item href="title.png" id="title-image" media-type="image/png"/>
+    <item href="title.htm" id="title" media-type="application/xhtml+xml"/>
     <item href="forewd.htm" id="forewd" media-type="application/xhtml+xml"/>
     <item href="contents.htm" id="contents" media-type="application/xhtml+xml"/>
     <item href="prefac.htm" id="prefac" media-type="application/xhtml+xml"/>
@@ -220,6 +222,7 @@
   <spine toc="ncx">
     <itemref idref="cover" linear="no"/>
     <itemref idref="jfk"/>
+    <itemref idref="title"/>
     <itemref idref="forewd"/>
     <itemref idref="contents"/>
     <itemref idref="prefac"/>
