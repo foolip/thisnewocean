@@ -167,32 +167,6 @@ def externalizeWhitespace(tagNames):
             elm.lastChild.data = elm.lastChild.data.rstrip()
         pad(elm, '\n')
 
-# group images and their captions into figures
-def figurize(fig):
-    def nextElement(ref):
-        n = ref.nextSibling
-        while n and n.nodeType != n.ELEMENT_NODE:
-            assert isEmpty(n)
-            n = n.nextSibling
-        return n
-    imgs = list(iterTags(fig, 'img'))
-    if len(imgs) > 0:
-        caption = nextElement(fig)
-        if caption.tagName == 'p':
-            hr = nextElement(caption)
-        else:
-            hr = caption
-            caption = None
-        if hr.tagName == 'hr':
-            fig.tagName = 'div'
-            fig.setAttribute('class', 'figure')
-            if caption != None:
-                caption.setAttribute('class', 'caption')
-                fig.appendChild(caption)
-            remove(hr)
-            return True
-    return False
-
 # return the first element matching tagName
 def first(tagName):
     return next(iterTags(doc, tagName), None)
@@ -436,12 +410,6 @@ mapTags({'cite': 'i', 'em': 'i', 'strong': 'b'})
 removeEmpty(['b', 'i', 'li', 'p', 'sub', 'sup'])
 
 removeMeta()
-
-# figurize
-for p in iterTags(doc, 'p'):
-    if p.hasAttribute('align') and p.getAttribute('align') == 'center':
-        if figurize(p):
-            p.removeAttribute('align')
 
 # remove the footer (empty elements and images at end of body)
 for n in reversed(list(iterNodes(body))):
