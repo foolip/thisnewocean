@@ -214,6 +214,7 @@
     <item href="t645.png" id="t645" media-type="image/png"/>
     <item href="t646.png" id="t646" media-type="image/png"/>
     <item href="t647.jpg" id="t647" media-type="image/jpeg"/>
+    <item href="t648.png" id="t648" media-type="image/png"/>
   </manifest>
   <spine toc="ncx">
     <itemref idref="cover" linear="no"/>
